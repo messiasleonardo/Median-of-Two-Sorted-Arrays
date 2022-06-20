@@ -28,10 +28,9 @@ namespace Median_of_Two_Sorted_Arrays
             int sum = 0;
             for (int x = 0; x < result.Count; x++)
             {
-                    sum += result + sum;
-                //for (int i = x; i < result.Count; i++)
-                //{
-                //}
+
+                sum = sum + result[x];
+
 
             }
 
